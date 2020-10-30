@@ -20,7 +20,7 @@ public class Tortoise extends Thread {
                 case 3:
                     System.out.println("The Tortoise has reached the big oak tree!");
                     break;
-                case 4;
+                case 4:
                     System.out.println("The Tortoise has reached the finish line!");
                     break;
             }
