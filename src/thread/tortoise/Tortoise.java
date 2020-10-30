@@ -4,7 +4,7 @@ package thread.tortoise;
 
 public class Tortoise extends Thread {
 
-    private statics final int MILESTONES = 5;
+    private static final int MILESTONES = 5;
     public void run() {
         for (int index = 0; index < MILESTONES; index++) {
             switch (index) {
